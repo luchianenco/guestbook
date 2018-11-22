@@ -79,6 +79,7 @@ Some unit tests have been created. More will follow.
 
 #### TODOs:
 
+- Pagination for the Posts
 - I want to created a table with roles, to provide more flexibility to role management.
 - Add sharable instances of a class in the container
 - Improve container autowiring, and put configuration into an yaml file instead of plain php definition
