@@ -76,7 +76,7 @@ Some unit tests have been created. More will follow.
 
 - I want to created a table with roles, to provide more flexibility to role management.
 - Add sharable instances of a class in the container
-- Improve autowiring, and put configuration into an yaml file instead of direct php definition
+- Improve container autowiring, and put configuration into an yaml file instead of plain php definition
 - Separate Validation component instead of validating the values in the services
 - User Friendly error display on form submit failures
 - Full Unit Test Coverage & Some Integration Tests for main functionality
