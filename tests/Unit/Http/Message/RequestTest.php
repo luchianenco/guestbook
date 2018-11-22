@@ -5,6 +5,10 @@ namespace App\Tests\Unit\Http\Message;
 use App\Http\Message\Request;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class RequestTest
+ * @package App\Tests\Unit\Http\Message
+ */
 class RequestTest extends TestCase
 {
     /**

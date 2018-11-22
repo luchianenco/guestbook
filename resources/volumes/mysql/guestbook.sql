@@ -33,5 +33,5 @@ CREATE TABLE `posts` (
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4;
 
 
-INSERT INTO `users` VALUES (1,'test','123',0),(2,'admin','123',1);
+INSERT INTO `users` VALUES (1,'test','$2y$10$FzkrJ0w5yck7eZndel2orepjpFD1NlMljawFf3s4jPo2Nr2lVzvCm',0),(2,'admin','$2y$10$pCMFi1M/ltocEELWy8JUIOx2mOqt4qCfoZqfC0jLpW.iAqXfgZNTi',1);
 INSERT INTO `posts` VALUES (1,'Hello World!!! Helooooooo!!',0,'published',1,'2018-11-20 21:35:12',NULL),(2,'We are here!!!',0,'published',1,'2018-11-21 13:13:22',NULL),(3,'Juuhuuuu 5000',0,'published',1,'2018-11-20 21:30:51',NULL),(4,'Juuhuuuu 100001',0,'published',1,'2018-11-20 21:33:34',NULL),(5,'Nice!!! Nice!!!',0,'published',1,'2018-11-21 13:31:08',NULL),(6,'Good Night! Sleep Well !!!!!!',0,'deleted',1,'2018-11-18 23:23:51','2018-11-21 16:47:50'),(7,'Juuhuuuu!!! 20220',0,'published',2,'2018-11-20 21:22:32',NULL),(8,'https://media.giphy.com/media/26BRL9kaRin5yu1ji/giphy.gif',1,'published',2,'2018-11-21 15:48:09','2018-11-21 16:35:07');
