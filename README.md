@@ -23,11 +23,16 @@ Now if all containers are build successfully, you can type in the browser:
     
     http://localhost:8080/
 
+There 2 users in the database:
+- admin user with username ``admin`` and password ``123``
+- simple user with username ``test`` and password ``123``
     
 #### Description
 For base infrastructure I have used docker platform, and 
 configured 3 service: nginx, php and mysql inside docker-composer yml file.
 To be able to use environment variables I have used a dotenv library.
+
+
 
 To build PHP architecture, I have used next solutions:
 
